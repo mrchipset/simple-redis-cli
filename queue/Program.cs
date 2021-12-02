@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using StackExchange.Redis;
 
 namespace queue
@@ -55,7 +54,8 @@ namespace queue
                 else
                 {
                     string value = db.ListLeftPop(key);
-                    Console.WriteLine($"POP Key: {key}\tValue:{value}");
+                    long length = db.ListLength(key);
+                    Console.WriteLine($"POP Key: {key}\tValue:{value}\nLength: {length}");
                     return 1;
                 }
             }
