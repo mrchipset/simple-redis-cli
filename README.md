@@ -4,3 +4,4 @@ A collection of redis command line tools
 |Name|Description|
 |:--:|:--:|
 |[kv](./kv/)|Redis key/value tool|
+|[lk](./lk/)|A command line distributed lock tool|
