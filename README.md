@@ -7,3 +7,4 @@ A collection of redis command line tools shows basic usage and useful data struc
 |[lk](./lk/)|A command line distributed lock tool|
 |[queue](./queue/)|A command line to manage queue|
 |[stack](./stack/)|A command line to mange stack|
+|[set](./set/)|A command line to mange set|
